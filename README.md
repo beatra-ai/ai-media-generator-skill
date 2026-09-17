@@ -14,6 +14,10 @@ Create AI images, videos, music, and voice-over from one Agent Skill for Claude 
 | **Cost** | Free to install. Each render uses credits on your Beatra account, and paid steps run only when you ask for that exact render or approve its card. |
 | **Works with** | Claude Code, Codex, OpenClaw |
 
+<p align="center"><img src="assets/hero.webp" width="800" alt="Three different image jobs from one agent session: a product shot of a fictional sparkling water can labeled Tidewell, a flat vector blog header about working from home, and a stormy lighthouse at dusk as a cinematic concept frame. AI-generated with Beatra."></p>
+
+*Three different image jobs from one agent session: a product shot of a fictional sparkling water can labeled Tidewell, a flat vector blog header about working from home, and a stormy lighthouse at dusk as a cinematic concept frame. AI-generated with Beatra.*
+
 | Skill | Entry point | Version |
 | --- | --- | --- |
 | [`beatra`](skills/beatra) | [SKILL.md](skills/beatra/SKILL.md) | 2.8.8 |

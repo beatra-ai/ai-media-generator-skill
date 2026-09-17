@@ -14,6 +14,10 @@
 | **费用** | 安装免费。每次生成消耗 Beatra 账号积分，只有你明确要求这次生成或批准确认卡后才会付费。 |
 | **支持的 Agent** | Claude Code、Codex、OpenClaw |
 
+<p align="center"><img src="assets/hero.webp" width="800" alt="同一个 Agent 会话里的三类图片任务：虚构气泡水品牌 Tidewell 的产品广告图、居家远程办公主题的扁平插画博客头图、暴风雨黄昏中的灯塔电影感概念图。由 Beatra AI 生成。"></p>
+
+*同一个 Agent 会话里的三类图片任务：虚构气泡水品牌 Tidewell 的产品广告图、居家远程办公主题的扁平插画博客头图、暴风雨黄昏中的灯塔电影感概念图。由 Beatra AI 生成。*
+
 | Skill | Entry point | Version |
 | --- | --- | --- |
 | [`beatra`](skills/beatra) | [SKILL.md](skills/beatra/SKILL.md) | 2.8.8 |

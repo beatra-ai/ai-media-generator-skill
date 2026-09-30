@@ -20,7 +20,7 @@ Create AI images, videos, music, and voice-over from one Agent Skill for Claude 
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`beatra`](skills/beatra) | [SKILL.md](skills/beatra/SKILL.md) | 2.8.8 |
+| [`beatra`](skills/beatra) | [SKILL.md](skills/beatra/SKILL.md) | 2.9.1 |
 
 This repository is published automatically from [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/beatra). Report issues there.
 

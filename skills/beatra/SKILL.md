@@ -62,8 +62,13 @@ python3 scripts/authorize.py
 ```
 
 The browser supports sign-in or account creation and then one Allow decision.
-The helper observes completion, stores the Device Token privately, verifies it
-with one non-billable call, and prints Ready. Never expose the approval code or
+The helper prints the approval link at once, waits for Allow (leave it running),
+stores the Device Token privately, verifies it with one non-billable call, and
+prints `Beatra is ready`. When it prints `BEATRA_AUTH_PENDING`, show the user
+the approval link, then run the same command again until it prints
+`Beatra is ready`. Every run continues the same approval, so the user approves
+only once, and an Allow given while nothing runs connects on the next Beatra
+command. Never expose the approval code or
 ask the user to confirm approval in chat. Authorize once for the full Beatra
 connection; changing between image, video, music, speech, and public social
 lookup does not need another grant. After installing or replacing it,

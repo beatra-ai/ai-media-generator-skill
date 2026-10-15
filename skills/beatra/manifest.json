@@ -1,5 +1,5 @@
 {
-  "changelog": "Connecting Beatra is smoother: the helper waits for your approval, and if you approve after it has stopped waiting, Beatra connects automatically the next time you use it, with no second approval.",
+  "changelog": "Updates now come from the store or tool you installed this Skill from; the Skill no longer replaces its own files.",
   "display_name": "Beatra",
   "entry": "SKILL.md",
   "homepage": "https://beatra.ai/install",
@@ -95,5 +95,5 @@
     "billable": false,
     "tool": "beatra.tasks.list"
   },
-  "version": "2.9.1"
+  "version": "2.9.5"
 }

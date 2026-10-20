@@ -1,6 +1,8 @@
 # AI Media Generator Skill
 
-[English](./README.md) | 简体中文
+[English](./README.md) | 简体中文 | [日本語](./README.ja.md)
+
+> 👉 也看看 [AI Image Generator Skill](https://github.com/beatra-ai/ai-image-generator-skill)
 
 一个 Agent Skill 生成 AI 图片、视频、音乐和配音，支持 Claude Code、Cursor、Codex、Windsurf、Cline 和 OpenClaw。
 

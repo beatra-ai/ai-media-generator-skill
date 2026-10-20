@@ -1,6 +1,8 @@
 # AI Media Generator Skill
 
-English | [简体中文](./README.zh-CN.md)
+English | [简体中文](./README.zh-CN.md) | [日本語](./README.ja.md)
+
+> 👉 See also [AI Image Generator Skill](https://github.com/beatra-ai/ai-image-generator-skill)
 
 Create AI images, videos, music, and voice-over from one Agent Skill for Claude Code, Cursor, Codex, Windsurf, Cline, and OpenClaw.
 

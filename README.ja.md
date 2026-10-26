@@ -23,7 +23,7 @@ AI 画像・動画・音楽・ナレーションを 1 つのエージェント�
 
 | Skill | Entry point | Version |
 | --- | --- | --- |
-| [`beatra`](skills/beatra) | [SKILL.md](skills/beatra/SKILL.md) | 2.9.8 |
+| [`beatra`](skills/beatra) | [SKILL.md](skills/beatra/SKILL.md) | 2.9.9 |
 
 このリポジトリは [beatra-ai/beatra-skills](https://github.com/beatra-ai/beatra-skills/tree/main/skills/beatra) から自動的に公開されています。問題の報告はそちらへお願いします。
 
@@ -113,4 +113,4 @@ https://github.com/beatra-ai/ai-media-generator-skill から beatra スキル（
 - ウェブサイト — https://beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=ai-media-generator-skill
 - ドキュメント — https://docs.beatra.ai?utm_source=github&utm_medium=flagship&utm_campaign=ai-media-generator-skill
 - コンソール — https://console.beatra.ai
-- AI エージェント向け — https://beatra.ai/llms.txt（インデックス）· https://beatra.ai/llms-full.txt（全スキルを 1 ファイルに）
+- AI エージェント向け — https://beatra.ai/llms.txt （インデックス）· https://beatra.ai/llms-full.txt （全スキルを 1 ファイルに）

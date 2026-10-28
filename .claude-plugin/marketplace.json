@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "ai-media-generator-skill",
+  "description": "The Beatra AI Media Generator skill as a Claude Code plugin.",
+  "owner": {
+    "name": "Beatra AI",
+    "url": "https://github.com/beatra-ai"
+  },
+  "plugins": [
+    {
+      "name": "beatra",
+      "source": "./",
+      "description": "Create AI images, videos, music, and voice, look up public social data, edit supported visual results, and keep returned files and credit use easy to track through one shared connection."
+    }
+  ]
+}

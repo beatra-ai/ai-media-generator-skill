@@ -1,0 +1,20 @@
+{
+  "name": "ai-media-generator-skill",
+  "interface": {
+    "displayName": "AI Media Generator"
+  },
+  "plugins": [
+    {
+      "name": "beatra",
+      "source": {
+        "source": "local",
+        "path": "./"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Creativity"
+    }
+  ]
+}

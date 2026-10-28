@@ -35,6 +35,33 @@ AI 画像・動画・音楽・ナレーションを 1 つのエージェント�
 npx skills add beatra-ai/ai-media-generator-skill
 ```
 
+Claude Code プラグインとして：
+
+```bash
+claude plugin marketplace add beatra-ai/ai-media-generator-skill
+claude plugin install beatra@ai-media-generator-skill
+```
+
+Codex プラグインとして：
+
+```bash
+codex plugin marketplace add beatra-ai/ai-media-generator-skill
+codex plugin add beatra@ai-media-generator-skill
+```
+
+GitHub Copilot CLI プラグインとして：
+
+```bash
+copilot plugin marketplace add beatra-ai/ai-media-generator-skill
+copilot plugin install beatra@ai-media-generator-skill
+```
+
+Gemini CLI 拡張機能として：
+
+```bash
+gemini extensions install https://github.com/beatra-ai/ai-media-generator-skill
+```
+
 GitHub CLI を使う場合：
 
 ```bash

@@ -62,6 +62,12 @@ Gemini CLI 拡張機能として：
 gemini extensions install https://github.com/beatra-ai/ai-media-generator-skill
 ```
 
+Antigravity CLI プラグインとして：
+
+```bash
+agy plugin install https://github.com/beatra-ai/ai-media-generator-skill
+```
+
 GitHub CLI を使う場合：
 
 ```bash
@@ -75,6 +81,21 @@ gh skill install beatra-ai/ai-media-generator-skill beatra
 ```text
 https://github.com/beatra-ai/ai-media-generator-skill から beatra スキル（フォルダ skills/beatra）をインストールし、その SKILL.md に従って私の Beatra アカウントに接続してください。
 ```
+
+## 入力と出力
+
+| | 種類 | 形式 | 仕様 |
+| --- | --- | --- | --- |
+| **入力** | テキスト：ブリーフ、プロンプト、歌詞、原稿 | — | — |
+| **入力** | 画像：写真、参考画像、編集する元画像 | JPG、PNG、WEBP | 1 リクエストあたり最大 4 枚 |
+| **入力** | 動画：編集・延長・解析する動画 | MP4、MOV | 1 ファイル最大 50 MB |
+| **入力** | 音声：ボイスクローン用の録音サンプル | MP3、WAV | 10〜300 秒／1 ファイル最大 20 MB |
+| **入力** | 音声：音楽の参考音源 | MP3、WAV、FLAC | 6〜360 秒 |
+| **出力** | 画像：画像 | PNG | 1 リクエストあたり最大 4 枚／1K、2K、4K／編集可能 |
+| **出力** | 動画：動画クリップ | MP4 | 2〜30 秒／480p、720p、1080p、2K、4K／編集可能 |
+| **出力** | 音声：曲またはインストゥルメンタル | MP3 | — |
+| **出力** | 音声：ナレーション・ボイスオーバー | MP3、WAV、FLAC、OPUS、PCM | 40 言語 |
+| **出力** | テキスト：公開SNSデータ（投稿、コメント、アカウント、トレンド） | — | — |
 
 ## 技術仕様と出力上限
 
@@ -133,7 +154,9 @@ https://github.com/beatra-ai/ai-media-generator-skill から beatra スキル（
 
 ## ライセンス
 
-[MIT-0](LICENSE)：商用を含め、自由に使用・改変・再配布できます。クレジット表記は不要です。ClawHub 上のこれらのスキルと同じ条件です。
+このリポジトリのスキルファイル（`SKILL.md`、リファレンス、スクリプト）とこの README は [MIT-0](LICENSE) で提供しています。商用を含め、自由に使用・改変・再配布でき、クレジット表記は不要です。
+
+生成は Beatra のクラウドサービスで行われ、[Beatra 利用規約](https://beatra.ai/terms?utm_source=github&utm_medium=flagship&utm_campaign=ai-media-generator-skill)が適用されます。
 
 ## リンク
 

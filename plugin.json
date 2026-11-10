@@ -10,6 +10,24 @@
   "homepage": "https://beatra.ai",
   "repository": "https://github.com/beatra-ai/ai-media-generator-skill",
   "license": "MIT-0",
+  "keywords": [
+    "AI media generator",
+    "AI creative suite",
+    "public social data",
+    "social media data",
+    "AI image generator",
+    "AI video generator",
+    "AI music generator",
+    "AI voice generator",
+    "YouTube data",
+    "TikTok data",
+    "text to image",
+    "image to video",
+    "AI video editor",
+    "text to speech",
+    "voice cloning",
+    "multimodal content creation"
+  ],
   "extensions": {
     "com.openai": {
       "interface": {
@@ -19,6 +37,13 @@
         "developerName": "Beatra AI",
         "category": "Creativity",
         "websiteURL": "https://beatra.ai",
+        "supportURL": "https://github.com/beatra-ai/.github/blob/main/SUPPORT.md",
+        "privacyPolicyURL": "https://beatra.ai/privacy",
+        "termsOfServiceURL": "https://beatra.ai/terms",
+        "defaultPrompt": [
+          "Use Beatra Universal to make a poster for my neighborhood gym's weekend trial class, bright and energetic."
+        ],
+        "composerIcon": "./assets/icon.png",
         "logo": "./assets/icon.png"
       }
     }

@@ -62,6 +62,12 @@ copilot plugin install beatra@ai-media-generator-skill
 gemini extensions install https://github.com/beatra-ai/ai-media-generator-skill
 ```
 
+作为 Antigravity CLI 插件：
+
+```bash
+agy plugin install https://github.com/beatra-ai/ai-media-generator-skill
+```
+
 使用 GitHub CLI：
 
 ```bash
@@ -75,6 +81,21 @@ gh skill install beatra-ai/ai-media-generator-skill beatra
 ```text
 从 https://github.com/beatra-ai/ai-media-generator-skill 安装 beatra skill（目录 skills/beatra），然后按它的 SKILL.md 连接我的 Beatra 账号。
 ```
+
+## 输入与输出
+
+| | 类型 | 格式 | 规格 |
+| --- | --- | --- | --- |
+| **输入** | 文本：创作需求、提示词、歌词或文稿 | — | — |
+| **输入** | 图片：照片、参考图或要修改的原图 | JPG、PNG、WEBP | 单次最多 4 张 |
+| **输入** | 视频：要编辑、延长或理解的视频 | MP4、MOV | 单个文件最大 50 MB |
+| **输入** | 音频：用于声音克隆的录音样本 | MP3、WAV | 10–300 秒；单个文件最大 20 MB |
+| **输入** | 音频：音乐参考音频 | MP3、WAV、FLAC | 6–360 秒 |
+| **输出** | 图片：图片 | PNG | 单次最多 4 张；1K、2K、4K；可编辑 |
+| **输出** | 视频：视频片段 | MP4 | 2–30 秒；480p、720p、1080p、2K、4K；可编辑 |
+| **输出** | 音频：歌曲或纯音乐 | MP3 | — |
+| **输出** | 音频：旁白与配音 | MP3、WAV、FLAC、OPUS、PCM | 40 种语言 |
+| **输出** | 文本：公开社交数据（帖子、评论、账号和趋势） | — | — |
 
 ## 技术规格与输出限制
 
@@ -156,7 +177,9 @@ gh skill install beatra-ai/ai-media-generator-skill beatra
 
 ## 许可证
 
-[MIT-0](LICENSE)：可自由使用、修改和再分发，包括商用，无需署名；与这些 skill 在 ClawHub 上的条款一致。
+本仓库的 Skill 文件（`SKILL.md`、参考文档和脚本）与本 README 采用 [MIT-0](LICENSE) 许可：可自由使用、修改和再分发，包括商用，无需署名。
+
+内容生成在 Beatra 云端完成，适用 [Beatra 服务条款](https://www.beatra.cn/terms?utm_source=github&utm_medium=flagship&utm_campaign=ai-media-generator-skill)。
 
 ## 相关链接
 

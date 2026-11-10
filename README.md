@@ -62,6 +62,12 @@ As a Gemini CLI extension:
 gemini extensions install https://github.com/beatra-ai/ai-media-generator-skill
 ```
 
+As an Antigravity CLI plugin:
+
+```bash
+agy plugin install https://github.com/beatra-ai/ai-media-generator-skill
+```
+
 With the GitHub CLI:
 
 ```bash
@@ -77,6 +83,21 @@ Or paste this into your agent:
 ```text
 Install the beatra skill from https://github.com/beatra-ai/ai-media-generator-skill (folder skills/beatra), then follow its SKILL.md to connect my Beatra account.
 ```
+
+## Inputs and outputs
+
+| | Type | Formats | Specifications |
+| --- | --- | --- | --- |
+| **Input** | Text — Brief, prompt, lyrics, or script | — | — |
+| **Input** | Image — Photos, references, or a base image to edit | JPG, PNG, WEBP | up to 4 images per request |
+| **Input** | Video — Source video to edit, extend, or understand | MP4, MOV | up to 50 MB each |
+| **Input** | Audio — Voice sample for a voice clone | MP3, WAV | 10–300 s; up to 20 MB each |
+| **Input** | Audio — Reference audio for music | MP3, WAV, FLAC | 6–360 s |
+| **Output** | Image — Images | PNG | up to 4 images per request; 1K, 2K, 4K; editable |
+| **Output** | Video — Video clips | MP4 | 2–30 s; 480p, 720p, 1080p, 2K, 4K; editable |
+| **Output** | Audio — Songs or instrumentals | MP3 | — |
+| **Output** | Audio — Narration and voice-over | MP3, WAV, FLAC, OPUS, PCM | 40 languages |
+| **Output** | Text — Public social data: posts, comments, accounts, and trends | — | — |
 
 ## Technical Specifications & Output Limits
 
@@ -159,9 +180,10 @@ Details: `references/updates-and-security.md` inside the skill.
 
 ## License
 
-[MIT-0](LICENSE) — free to use, modify, and redistribute, including
-commercially. No attribution required. Same terms as these skills carry on
-ClawHub.
+The skill files in this repository (`SKILL.md`, references, and scripts) and this README are licensed under
+[MIT-0](LICENSE): free to use, modify, and redistribute, including commercially, with no attribution required.
+
+Media generation runs on Beatra's cloud service under the [Beatra Terms of Service](https://beatra.ai/terms?utm_source=github&utm_medium=flagship&utm_campaign=ai-media-generator-skill).
 
 ## Links
 
